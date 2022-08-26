@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./activities.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" type="image/jpg" href="./logo/manifest.jpg">
+    <title>Enchanted Lanka | Activities</title>
+</head>
+<body>
+  <header>
+    <div class="header" id="head_nav">
+        <a href="./home.html" class="logo">ENCHANTED LANKA</a>
+        <div class="other_heads">
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">X</a>
+          <a href="./home.html">HOME</a>
+          <a href="./wildlife.html">WILD LIFE</a>
+          <a href="./beach.html">BEACHES</a>
+          <a href="./heritage.html">HERITAGE</a>
+          <a class="now_in" href="./activities.html">ACTIVITIES</a>
+          <a href="./donations.html">DONATIONS</a>
+        </div>
+    </div>
+</header><hr class="header_hr">
+
+<form action="" class="ticketbook" id="ticketbook">
+  <fieldset>
+    <legend>SIGN FOR YOUR ADVENTURE</legend>
+    <p>
+      <label for="adventure">ADVENTURE:</label>
+      <select name="adventure" id="adventure">
+        <option value="HIKING">Hiking</option>
+        <option value="DIVING">Diving</option>
+        <option value="SURFING">Surfing</option>
+      </select>
+    </p>
+    <p>
+      TICKETS <hr>
+    </p>   
+    <fieldset class="localform">
+      <p>
+        <p><h2>LOCAL PASS</h2> <br>
+          <label for="localpass">Adults:</label>
+          <input type="number" id="localpass" name="localpass" value="0" min="0">
+        </p>
+
+        CHILD PASS: <br>
+        <label for="kids">Below age 15:</label>
+        <input type="number" name="kids" value="0" id="kids" min="0"><br>
+  
+        <label for="babies">Below age 6:</label>
+        <input type="number" name="babies" id="babies"  value="0" min="0"><br>
+  
+        <select name="localTime" id="localTime">
+          <option value="3hrs">3 Hours</option>
+          <option value="HalfDay">Half Day</option>
+          <option value="FullDay">Full Day</option>
+          <option value="TwoDays">Two Days</option>
+        </select>
+      </p>
+    </fieldset><br>
+
+    <fieldset class="foreignform">
+      <p>
+        <h2>FOREIGNER PASS</h2><br>
+        <label for="foreignerkid">Foreigner-Child:</label>
+        <input type="number" name="foreignerkid" id="foreignerkid" value="0" min="0">
+  
+        <label for="foreigneradult">Foreigner-Adult:</label>
+        <input type="number" name="foreigneradult" id="foreigneradult" value="0" min="0">
+
+        <select name="foreignerTime" id="foreignerTime">
+          <option value="fullday">All Day</option>
+          <option value="halfday">HalfDay</option>
+          <option value="threeHours">3 Hours</option>
+          <option value="twoDays">2 Days</option>
+        </select><br>
+      </p>
+    </fieldset>
+    <fieldset>
+      <legend>Extras</legend>
+      <label for="foodtok">Food Tokens:</label>
+        <input type="number" name="footkforeign" id="foodtk" value="0" min="0">
+        <label for="anualps">Anual Pass:</label>
+        <input type="number" name="anualpsforeign" id="anualps" value="0" min="0">
+    </fieldset>
+    <button type="button" id="add">ADD TO ORDER</button>
+
+    <fieldset class="totalshow">
+      <legend>Your Party</legend>
+      <div class="displayarea">
+        <p>Current Order: <span id="curOrder"> 0 </span></p>
+        <p>Total Of Current Order:<span id="curTot">0</span></p>
+        <p>Overall Order: <span id="overOrder">0</span></p>
+        
+        <p>Total: <span id="total">0</span></p>
+    </div>
+    </fieldset>
+
+
+    <p>
+      <input type="submit" value="PLACE ORDER"  id="placeOrder">
+      <input type="reset">
+    </p>
+  </fieldset>
+
+</form>
+
+
+        <h1>ACTIVITIES YOU CAN DO IN SRI-LANKA</h1>
+
+        <section class="sect" id="hiking">
+          <h2 class="activity_name">HIKING</h2>
+          <h2 class="place_name">Hortons Plain National Park</h2>
+          <div class="grid">
+            <div class="descript">
+              <p>If you are spending time in Nuwara Eliya, I fully recommend to spend a morning in Horton Plain National Park. The 3 hour hike through the park is beautiful and relaxing, and will lead you to World’s End, one of the most epic view there is in Sri Lanka. To make the most of your time, I have gather 5 useful tips to prepare your hike in Horton Plains.</p>
+              <ol>You must know:
+                <li>Start Your Horton Plains hike early</li>
+                <li>Dress for walk</li>
+                <li>Be amaxes at World’s end, but be careful</li>
+                <li>Be Environmentally conscious</li>
+                <li>Choose the Right Direction to hike Horton Plains</li>
+              </ol>
+
+            </div>
+            <div class="img">
+              <img src="./activities_pics/hortanplain.jpg" alt="Hiking" class="place_img">
+              <a href="https://www.bonjoursunset.com/blog/5-tips-to-hike-horton-plains#:~:text=1.-,START%20YOUR%20HORTON%20PLAINS%20HIKE%20EARLY,Eliya%20an%20experience%20in%20itself.">For More Information</a>
+            </div> 
+          </div> 
+        </section><hr>
+
+        <section class="sect">
+          <h2 class="place_name">Pidurangala</h2>
+          <div class="grid">
+            <div class="descript">
+              <p>If you're a keen photographer looking to get some insta-fire, or want a truly magical Pidurangala experience overlooking <a href="./sigiriya.html">Sigiriya</a> , getting up before dawn and heading up to watch sunrise over the the surrounding landscapes is wonderful.
+                Watch as the sun lights up the surrounding jungles, lakes and villages around Sigiriya and Pidurangala, showering the vast landscapes in golden hues.</p>
+              <ol>You must know:
+                <li>Entry Through Buddhist Temple, You need to cover your Shoulders and knees when passing</li>
+                <li>Opens at 5 am And close at 6 pm</li>
+                <li>LKR 1000 Per Person ($3 USD)</li>
+                <li>Wear Proper shoes, Bring Water</li>
+                <li>Be Environmentally conscious</li>
+              </ol>              
+            </div>
+            <div class="img">
+              <img src="./activities_pics/Pidurangala.jpg" alt="" class="place_img">
+              <a href="https://www.thecommonwanderer.com/blog/a-guide-to-pidurangala-rock">For More Information</a>
+            </div> 
+          </div> 
+        </section><hr>
+
+        <section class="sect">
+          <h2 class="place_name">Knuckles Ranges</h2>
+          <div class="grid">
+            <div class="descript">
+              <p>he Knuckles Mountain Range is a gorgeous UNESCO World Heritage Site and a popular spot for hikers. The dense forest, surrounded by 35 mystical mountains that range from 900 to 1900 meters, is home to stunning hiking trails. With cascading waterfalls in every clearing, quaint villages are hidden amid the mountains, many terraced rice fields as well as numerous rare and elusive animals, this 234-square-kilometer range displays the best of Sri Lanka’s diverse natural beauty and booking Your tour with Nature paradise tours.</p>
+              <ol>You must know:
+                <li>Early Morning is the Best Time to Start</li>
+                <li>Bring Water Bottle and you can refill them at passing Stream</li>
+                <li>Bring Anti-Leech Srays, Socks and other form of Protections</li>
+                <li>March-April & June-August Are Best months for Hike</li>
+                <li>Bring Swimwear if you want to take a Dip in the Waterwall</li>
+              </ol>
+            </div>
+            <div class="img">
+              <img src="./activities_pics/knuckles-range.jpg" alt="" class="place_img">
+              <a href="https://www.viator.com/tours/Kandy/Knuckles-Leopard-trail-Trek/d22283-232261P1">For More Information</a>
+            </div> 
+          </div> 
+        </section><hr>
+
+        <section class="sect">
+          <h2 class="activity_name">DIVING</h2>
+          <h2 class="place_name">Unawatuna</h2>
+          <div class="grid">
+            <div class="descript">
+              <p> In Unawatuna you can Reef Dives, Rock Dives, Wreck Dives and Night Dives with depths that go up to  30 meters. The main attractions in Unawatuna and in Sri Lanka are a lot of Wrecks around the coast line. There is a famous Wreck “RANGOON” that does down to 30 meters, the Wreck SS Orestes that goes down to 22 meters, and the Galle Ship Wreck at around 18 meters.</p>
+              <ol>You must know:
+                <li>Travelers should have a moderate physical fitness level</li>
+                <li>Not recommended for travelers with back problems</li>
+                <li>Not recommended for pregnant travelers</li>
+                <li>Listen to the hand signal instructions carefully</li>
+                <li>Don’t use your nose at all. Just forget about your nose. If you happen to breathe out, it’ll fog up your mask and hinder your visibility.</li>
+              </ol>
+              </div>
+            <div class="img">
+              <img src="./activities_pics/unawatuna_dive.jpg" alt="" class="place_img">
+              <a href="https://www.tripadvisor.com/Attraction_Review-g644047-d3247441-Reviews-Divinguru_Unawatuna-Unawatuna_Galle_District_Southern_Province.html">For More Information</a>
+            </div> 
+          </div> 
+        </section><hr>
+
+        <section class="sect">
+          <h2 class="place_name">Trincomalee</h2>
+          <div class="grid">
+            <div class="descript">
+              <p>In Trincomalee explore shallow coral reefs with colorful reef fish around Nilaveli or drift dive along the rock cliffs around Swami Rock. With lots to see in shallow depths, gentle currents and dive sites close to shore the east coast is perfect for those looking to experience scuba diving for the first time or experienced divers looking for some relaxed diving mixed in with lazy afternoons by the beach.</p>
+              <ol>You must know:
+                <li>The Dive Centre is open every year from 15. March to 15. November from 8 am to 7 pm.</li>
+                <li>Travelers should have a moderate physical fitness level</li>
+                <li>Not recommended for travelers with back problems</li>
+                <li>Not recommended for pregnant travelers</li>
+                <li>Listen to the hand signal instructions carefully</li>
+                
+              </ol>
+            </div>
+            <div class="img">
+              <img src="./activities_pics/scuba-diving-trinco.jpg" alt="" class="place_img">
+              <a href="https://www.nilavelidivingcentre.com/">For More Information</a>
+            </div> 
+          </div> 
+        </section><hr>
+
+        <section class="sect">
+          <h2 class="place_name">Mirissa</h2>
+          <div class="grid">
+            <div class="descript">
+              <p>Mirissa is a great place where you can enjoy Scuba Diving and relax during your vacation in Sri Lanka. Let us take you to an amazing Scuba Diving adventure. The season in the South of Sri Lanka, starts from October until may.</p>
+              <ol>You must know:
+                <li>Ready to dive with turtles</li>
+                <li>Travelers should have a moderate physical fitness level</li>
+                <li>Not recommended for travelers with back problems</li>
+                <li>Not recommended for pregnant travelers</li>
+                <li>Listen to the hand signal instructions carefully</li>
+              </ol>
+              </div>
+            <div class="img">
+              <img src="./activities_pics/mirissa_dive.jpg" alt="" class="place_img">
+              <a href="https://www.tripadvisor.com/Attractions-g1407334-Activities-c61-t194-Mirissa_Southern_Province.html">For More Information</a>
+            </div> 
+          </div> 
+        </section><hr>
+
+        <section class="sect">
+          <h2 class="activity_name">SURFING</h2>
+          <h2 class="place_name">Weligama</h2>
+          <div class="grid">
+            <div class="descript">
+              <p>Weligama Beach opens up into a huge bay on the south coast of Sri Lanka. It measures a whopping 3.2km from point to point, but arches in a horseshoe far inland. The result? The perfect cleft in the coast for refracting swells coming straight in off the Indian and Southern oceans. Breaks that make it through are drawn out into lovely, long frames that hit the main beaches in a series of peaks. They hold up well but are also protected by the surrounding headlands, meaning clean, glassy conditions are normal. It’s a beginner’s paradise.</p>
+              <ol>You must know:
+                <li>There are nearby reefs and point breaks to graduate to aplenty</li>
+                <li>The best spot in Sri Lanka for beginners</li>
+                <li>Fantastic surf schools</li>
+                <li>Pollution can be an issue</li>
+                <li>Closeouts in the main bay</li>
+              </ol>
+            </div>
+            <div class="img">
+              <img src="./activities_pics/weligama-Surf.jpg" alt="" class="place_img">
+              <a href="https://thesurfatlas.com/sri-lanka-surf/weligama-surf/">For More Information</a>
+            </div> 
+          </div> 
+        </section><hr>
+
+        <section class="sect">
+          <h2 class="place_name">Mirissa</h2>
+          <div class="grid">
+            <div class="descript">
+              <p>The funny thing about Mirissa is that it sits smack dab in the heart of Sri Lankan surf territory yet only manages to conjure two or three breaks on its doorstep. That’s not to knock those breaks – they are good. There’s a fast left at the harbour jetty and a challenging reef with strong take off on the west end of the bay. It’s just that there’s so much letiety nearby you might come expecting more and be a little disappointed.</p>
+              <ol>You must know:
+                <li>Decent reef breaks</li>
+                <li>The right hander reef is pretty shallow</li>
+                <li>Only two breaks within walking distance of the town</li>
+                <li>Shuts down in the rainy season</li>
+                <li>Gorgeous setting – coconut palms and whatnot!</li>
+              </ol>
+            </div>
+            <div class="img">
+              <img src="./activities_pics/Mirissa-surf.jpg" alt="" class="place_img">
+              <a href="https://thesurfatlas.com/sri-lanka-surf/mirissa-surf/">For More Information</a>
+            </div> 
+          </div> 
+        </section><hr>
+
+        <section class="sect">
+          <h2 class="place_name">Midigama</h2>
+          <div class="grid">
+            <div class="descript">
+              <p>Beyond the huge bay of Weligama, Sri Lanka’s south-western coast starts to run through hidden beach after hidden beach. For almost six kilometres, the stretch passes gold-tinged sands and little coves crowded by coconut palms, all of which can be referred to by the collective name of Midigama (the name of the small town at their centre)</p>
+              <ol>You must know:
+                <li>Some easy-going reefs for intermediates looking to graduate from the sand</li>
+                <li>Fast and hollow waves in some spots</li>
+                <li>A little localism</li>
+                <li>Rocks and urchins by the bucket load!</li>
+                <li>You might need a tuk-tuk to get to some Midigama surf spots</li>
+              </ol>
+            </div>
+            <div class="img">
+              <img src="./activities_pics/midigama_surfing.jpg" alt="" class="place_img">
+              <a href="https://thesurfatlas.com/sri-lanka-surf/midigama-surf-spots/">For More Information</a>
+            </div> 
+          </div> 
+        </section><hr>
+
+
+        <footer>
+          <div class="footer-content">
+              <a href="./home.html" class="logo_foot">ENCHANTED SRI-LANKA</a>
+              <div class="nav_list">
+                  <ul class="menu">
+                      <li><a href="./home.html" class="infoot">HOME</a></li>
+                      <li><a href="./wildlife.html" class="infoot">WILDLIFE</a></li>
+                      <li><a href="./beach.html" class="infoot">BEACHES</a></li>
+                      <li><a href="./heritage.html" class="infoot">HERITAGE</a></li>
+                      <li><a href="./activities.html" class="infoot">ACTIVITIES</a></li>
+                      <li><a href="./donations.html" class="infoot"s>DONATIONS</a></li>
+                  </ul>
+              </div>
+          </div>
+          <p class="credit">copyright &copy;2022 <a href=""></a></p>
+      </footer>
+      <script src="./navbar.js"></script>
+      <script src="./ticketbook.js"></script>
+      <script src="./main.js"></script>
+</body>
+</html>
